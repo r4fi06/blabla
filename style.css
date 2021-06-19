@@ -1,0 +1,182 @@
+body{
+	margin: 0;
+}
+
+/*---header-design---*/
+
+
+.header-area{
+	background-color: #3A5795;
+	padding: 10px 0;
+    font-family: arial, tahoma;
+}
+.logo-area{ 
+	width: 30%;
+    float: left;
+}
+.login-area{
+    width: 70%;
+    overflow: hidden;
+}
+.login-area label, 
+.login-area input{
+    display: block;
+}
+.login-area input[type="checkbox"]{
+    float: left;
+    margin: 0px;
+}
+.username-area{
+     float: left;
+    margin-right: 15px;
+}
+.password-area{
+    overflow: hidden;
+    float: left;
+}
+.submit-area{
+    overflow: hidden;
+}
+.login-area{
+    font-size: 12px;
+    color: #ffffff
+}
+.login-area input {
+    margin: 3px 0 3px;
+}
+.password-area a {
+    color: #97AACB;
+    font-size: 12px;
+    text-decoration: none;
+}
+.password-area a:hover{
+     text-decoration: underline;   
+}
+.submit-area input {
+    background-color: #4267B2;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 16px;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 3px;
+}
+    
+.login-area input{
+    border: 1px solid black;
+}
+.username-area label:last-child{
+    color: #97AACB;
+}
+.login-area form {
+    float: right;
+}
+.login-area submit-area {
+    float: right;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+/*mainArea-design*/
+
+.main-area{
+    background-image: linear-gradient(#ffffff, #DBE1ED);
+    font-family: arial, tahoma;
+}
+.mobile-area{
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+.signup-area{
+    width: 40%;
+    overflow: hidden;
+    font-family: arial;
+}
+.mobile-image{
+    float: left;
+    margin-right: 20px;
+}
+.mobile-text{
+    overflow: hidden;
+    
+}
+.mobile-text h4 {
+    font-weight: normal;
+    font-size: 14px;
+    color: #23335b
+}
+.mobile-text p{
+    font-size: 12px;
+    color: #9197AD;
+}
+.mobile-text a{
+    color: #000000;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 3px 5px;
+    background: linear-gradient(#ffffff, #e6e6e6);
+    float: right;
+    margin-top: 50px;
+}
+.mobile{
+    margin-top: 30px;
+    background: url(Images/background.png);
+    background-repeat: no-repeat;
+    min-height: 288px;
+    background-position: left bottom;
+}
+.mobile-image{
+    margin-left: 50px;
+}
+.input-first{
+    height: 30px;
+    width: 180px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.input-last{
+    height: 30px;
+    width: 180px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 20px;
+    
+    
+}
+.input-email{
+    height: 30px;
+    width: 377px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+select{
+    height: 30px;
+    width: 55px;
+    padding: 6px;
+}
+.provide{
+    text-decoration: none;
+    
+}
+.provide:hover{
+    text-decoration: underline;
+}
+.signUp{
+    height: 36px;
+    width: 180px;
+    color: white;
+    background: #5E9249;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/*---footer area---*/
+
